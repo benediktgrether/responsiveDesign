@@ -1,0 +1,90 @@
+html,body{margin: 0;padding: 0;max-width: 100%;background-color: black}
+h1{text-align: center;text-transform: uppercase;position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;color: white;font-size: 5rem}
+section{position: relative;height: 100vh;overflow: hidden}
+
+.section1{height: 100vh;background-color: black;}
+.section1 img{float: left;margin-top: 170px}
+.section1 #Ebene_0{transform: rotate(45deg);}
+.section1 #Ebene_1{transform: rotate(65deg);}
+
+
+.scrolldown{z-index: 2;position: absolute;bottom: 2%;width: 100%;max-width: 100% !important}
+.scrolldown .col-md-12{text-align: center;height: auto}
+.scrolldown .col-md-12 button{background: transparent; border: none}
+
+.down {
+    transform: rotate(-45deg);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    box-shadow: -4px 4px rgb(255,255,255);
+}
+.no-padding{padding:0 !important}
+.section3{height: auto
+}
+
+video{top: 0;min-width: 100%;min-height: 100%}
+
+h2{color: white;text-transform: uppercase;font-size: 6rem;position: relative}
+h3,h4{color: white}
+.section4{height: auto}
+.section4 img{border-radius:100%}
+.section4 .margin{margin-bottom: 10px}
+.section4 .padding{padding: 80px}
+.section4 .border-right{border-right: 4px solid #dee2e6!important}
+
+.section4 .padding p{font-size: 1.3rem;color: white}
+.bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
