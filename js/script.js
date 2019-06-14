@@ -28,29 +28,31 @@ $(window).scroll(function () {
         d = $(window).height(),
 
     scrollPercent = (s / d)*2;
+    scrollPercent1 = (s / d)*0.5;
+
 
     var position = (scrollPercent * ($(document).width() - $horizontal.width())-600);
     var position1 = (scrollPercent * ($(document).width() - $horizontal2.width())-600);
 
-/*
-if (section1.offset().top - $(window).scrollTop() < -900){
-$horizontal.css('top','0');
-    $horizontal2.css('top','0');
+    var position2 = (scrollPercent1 * (  $horizontal.height())-165);
+    var position3 = (scrollPercent1 * (  $horizontal.height())-225);
 
-}
-    console.log(section1.offset().top - $(window).scrollTop());
 
-*/
-if (position < -220 ){
+
+    if (position < -220 ){
     $horizontal.css({
-        'left': position
+        'left': position,
+        'top': position3
+
     });
 
 }
     if (position < -220){
 
     $horizontal2.css({
-        'right': position1
+        'right': position1,
+        'top': position2
+
     });}
 /*
     if(s>400){
@@ -66,6 +68,8 @@ if (position < -220 ){
     }
 */
 });
+
+
 
 
 

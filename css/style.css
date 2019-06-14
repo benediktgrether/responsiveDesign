@@ -1,11 +1,13 @@
+@font-face {
+    font-family: "LINTSEC";
+    src: url("../sf-alien-encounters.regular.ttf");
+}
+
 html,body{margin: 0;padding: 0;max-width: 100%;background-color: black}
-h1{text-align: center;text-transform: uppercase;position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;color: white;font-size: 5rem}
+h1{font-family: LINTSEC, sf-alien-encounters;text-align: center;text-transform: uppercase;position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;color: white;font-size: 5rem}
 section{position: relative;height: 100vh;overflow: hidden;margin-bottom: 100px}
 
 .section1 img{float: left;}
-
-
-
 .scrolldown{z-index: 2;position: absolute;bottom: 2%;width: 100%;max-width: 100% !important}
 .scrolldown .col-md-12{text-align: center;height: auto}
 .scrolldown .col-md-12 button{background: transparent; border: none}
@@ -21,7 +23,7 @@ section{position: relative;height: 100vh;overflow: hidden;margin-bottom: 100px}
 .section3{height: auto
 }
 #hori{
-    position: fixed;
+    position: absolute;
     width: 1000px;
     top:-225px;
     left: -600px;
@@ -32,13 +34,19 @@ section{position: relative;height: 100vh;overflow: hidden;margin-bottom: 100px}
 #hori2{
 
     top:-165px;
-    position: fixed;
+    position: absolute;
     width: 1000px;
 
     right: -600px;
     height: 1000px;
     z-index: 1;
 
+}
+canvas{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #000;
+    margin: 0 auto;
 }
 #heart{
     text-align: center;text-transform: uppercase;position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;color: white;font-size: 5rem}
@@ -107,5 +115,58 @@ h3,h4{color: white}
     }
 }
 
+.fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
 
 
