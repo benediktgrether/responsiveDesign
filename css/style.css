@@ -1,11 +1,9 @@
 html,body{margin: 0;padding: 0;max-width: 100%;background-color: black}
 h1{text-align: center;text-transform: uppercase;position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;color: white;font-size: 5rem}
-section{position: relative;height: 100vh;overflow: hidden}
+section{position: relative;height: 100vh;overflow: hidden;margin-bottom: 100px}
 
-.section1{height: 100vh;background-color: black;}
-.section1 img{float: left;margin-top: 170px}
-.section1 #Ebene_0{transform: rotate(45deg);}
-.section1 #Ebene_1{transform: rotate(65deg);}
+.section1 img{float: left;}
+
 
 
 .scrolldown{z-index: 2;position: absolute;bottom: 2%;width: 100%;max-width: 100% !important}
@@ -22,7 +20,28 @@ section{position: relative;height: 100vh;overflow: hidden}
 .no-padding{padding:0 !important}
 .section3{height: auto
 }
+#hori{
+    position: fixed;
+    width: 1000px;
+    top:-225px;
+    left: -600px;
+    height: 1000px;
+    z-index: 1;
 
+}
+#hori2{
+
+    top:-165px;
+    position: fixed;
+    width: 1000px;
+
+    right: -600px;
+    height: 1000px;
+    z-index: 1;
+
+}
+#heart{
+    text-align: center;text-transform: uppercase;position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;color: white;font-size: 5rem}
 video{top: 0;min-width: 100%;min-height: 100%}
 
 h2{color: white;text-transform: uppercase;font-size: 6rem;position: relative}
@@ -31,7 +50,6 @@ h3,h4{color: white}
 .section4 img{border-radius:100%}
 .section4 .margin{margin-bottom: 10px}
 .section4 .padding{padding: 10px 25px}
-.section4 .border-right{border-right: 4px solid #dee2e6!important}
 
 .section4 .padding p{font-size: 1.3rem;color: white}
 .bounce {
@@ -88,3 +106,6 @@ h3,h4{color: white}
         transform: translateY(-15px);
     }
 }
+
+
+

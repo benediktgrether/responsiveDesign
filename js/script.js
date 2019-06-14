@@ -1,49 +1,71 @@
-$(function () { // wait for document ready
-    var flightpath = {
-        entry : {
-            curviness: 1.25,
-            autoRotate: true,
-            values: [
-                {x: 100,	y: -20},
-                {x: 300,	y: 10}
-            ]
-        },
-        looping : {
-            curviness: 1.25,
-            autoRotate: true,
-            values: [
-                {x: 510,	y: 60},
-                {x: 620,	y: -60},
-                {x: 500,	y: -100},
-                {x: 380,	y: 20},
-                {x: 500,	y: 60},
-                {x: 580,	y: 20},
-                {x: 620,	y: 15}
-            ]
-        },
-        leave : {
-            curviness: 1.25,
-            autoRotate: true,
-            values: [
-                {x: 660,	y: 20},
-                {x: 800,	y: 130},
-                {x: $(window).width() + 300,	y: -100},
-            ]
-        }
-    };
-    // init controller
-    var controller = new ScrollMagic.Controller();
+/*var window_width = $(window).width() - $('#hand_left').width();
 
-    // create tween
-    var tween = new TimelineMax()
-        .add(TweenMax.to($(".section1 .lucas"), 1.2, {css:{bezier:flightpath.entry}, ease:Power1.easeInOut}))
-        .add(TweenMax.to($(".section1 .lucas"), 2, {css:{bezier:flightpath.looping}, ease:Power1.easeInOut}))
-        .add(TweenMax.to($(".section1 .lucas"), 1, {css:{bezier:flightpath.leave}, ease:Power1.easeInOut}));
+var document_height = $(document).height() - $(window).height();
 
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500, offset: 100})
-        .setPin("#target")
-        .setTween(tween)
-        .addIndicators() // add indicators (requires plugin)
-        .addTo(controller);
-})
+$(function () {
+    $(window).scroll(function () {
+        var scroll_position = $(window).scrollTop();
+        var object_position_left = window_width * (scroll_position / document_height);
+        $('#hand_left').css({
+            'left': object_position_left
+        });
+    });
+});*/
+
+
+
+var $horizontal = $('#hori');
+var $horizontal2 = $('#hori2');
+
+var section1 = $('.section1');
+/*var scrolltop = window.pageYOffset;
+
+
+$horizontal.style.top = scrolltop * 1.3 + 'px';*/
+
+$(window).scroll(function () {
+    var s = $(this).scrollTop() ,
+        d = $(window).height(),
+
+    scrollPercent = (s / d)*2;
+
+    var position = (scrollPercent * ($(document).width() - $horizontal.width())-600);
+    var position1 = (scrollPercent * ($(document).width() - $horizontal2.width())-600);
+
+/*
+if (section1.offset().top - $(window).scrollTop() < -900){
+$horizontal.css('top','0');
+    $horizontal2.css('top','0');
+
+}
+    console.log(section1.offset().top - $(window).scrollTop());
+
+*/
+if (position < -220 ){
+    $horizontal.css({
+        'left': position
+    });
+
+}
+    if (position < -220){
+
+    $horizontal2.css({
+        'right': position1
+    });}
+/*
+    if(s>400){
+        $heart.css({
+            'OPACITY': '1'
+        })
+
+    }
+    if(s<400){
+        $heart.css({
+            'opacity': '1'
+        })
+    }
+*/
+});
+
+
+
