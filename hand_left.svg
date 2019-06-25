@@ -1,526 +1,136 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="895.761" height="434.466" viewBox="0 0 895.761 434.466">
-  <defs>
-    <linearGradient id="linear-gradient" x1="-0.286" y1="0.376" x2="1" y2="0.814" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ca53a2"/>
-      <stop offset="1" stop-color="#c41aae"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="0.5" x2="1" y2="0.839" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#d557a7"/>
-      <stop offset="1" stop-color="#9a438c"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="0.442" y1="0.261" x2="0.77" y2="0.715" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fe7373"/>
-      <stop offset="1" stop-color="#f783ed"/>
-      <stop offset="1" stop-color="#f684f9"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-4" x1="0.5" x2="1.116" y2="0.615" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#da3f3f"/>
-      <stop offset="1" stop-color="#cfaeae"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.909" y2="0.873" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#c12020"/>
-      <stop offset="1" stop-color="#f24545"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-6" y1="0.242" x2="0.857" y2="0.948" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f273f6"/>
-      <stop offset="1" stop-color="#7c3268"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-7" x1="0.178" y1="0.161" x2="0.714" y2="0.572" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fe7373"/>
-      <stop offset="1" stop-color="#f684f9"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-8" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fe1a1a"/>
-      <stop offset="1" stop-color="#f15353"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-9" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f29797"/>
-      <stop offset="1" stop-color="#cf5f5f"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-10" x1="0.147" y1="0.175" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f776c4"/>
-      <stop offset="1" stop-color="#d557a7"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-11" x1="0.152" y1="0.067" x2="0.779" y2="0.803" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fb7ec7"/>
-      <stop offset="1" stop-color="#ec5fbd"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-12" x1="0.5" x2="0.915" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fb6ea2"/>
-      <stop offset="1" stop-color="#fc95ff"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-13" x1="0.322" y1="0.448" x2="0.708" y2="1.056" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f65757"/>
-      <stop offset="1" stop-color="#fb6ea2"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-14" x1="0.5" x2="0.906" y2="1.073" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fb4c4c"/>
-      <stop offset="0.612" stop-color="#f36b6b"/>
-      <stop offset="1" stop-color="#fb6ea2"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-15" x1="0.261" y1="0.258" x2="0.962" y2="0.89" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#db4040"/>
-      <stop offset="1" stop-color="#fc7a7a"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-16" x1="0.5" x2="0.969" y2="1.391" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b70a0a"/>
-      <stop offset="1" stop-color="#fe7676"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-17" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e82e2e"/>
-      <stop offset="1" stop-color="#a51212"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-18" x1="0.632" y1="0.135" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#5e0e0e"/>
-      <stop offset="1" stop-color="#ba2525"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-19" x1="1" y1="0.842" x2="0.329" y2="0.376" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fe1a1a"/>
-      <stop offset="1" stop-color="#9c1414"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-20" x1="0.793" y1="0.756" x2="0.395" y2="0.381" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#c52222"/>
-      <stop offset="1" stop-color="#ab2b2b"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-21" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#d24f4f"/>
-      <stop offset="1" stop-color="#eb8181"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-22" x1="0.886" y1="0.088" x2="0.192" y2="0.898" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fd4b4b"/>
-      <stop offset="1" stop-color="#eb7777"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-23" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fe4949"/>
-      <stop offset="1" stop-color="#e97d7d"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-24" x1="0.5" x2="1.1" y2="1.078" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#9d2828"/>
-      <stop offset="0.892" stop-color="#dd4e4e"/>
-      <stop offset="1" stop-color="#e55353"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-25" x1="0.68" y1="0.558" x2="0.212" y2="0.668" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fa5252"/>
-      <stop offset="1" stop-color="#ea7979"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-26" x1="0.264" x2="0.749" y2="0.862" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f76d6d"/>
-      <stop offset="1" stop-color="#b80303"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-27" x1="0.5" x2="0.946" y2="0.901" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b50000"/>
-      <stop offset="1" stop-color="#fc4b4b"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-28" x1="0.081" y1="0.176" x2="0.854" y2="0.945" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b50000"/>
-      <stop offset="1" stop-color="#fa5252"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-29" x1="0.371" y1="0.16" x2="0.826" y2="0.831" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b50000"/>
-      <stop offset="1" stop-color="#e64f4f"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-30" x1="0.314" y1="0.407" x2="0.954" y2="1.24" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b50000"/>
-      <stop offset="1" stop-color="#e34a4a"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-31" x1="0.365" y1="0.269" x2="0.805" y2="0.599" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b70a0a"/>
-      <stop offset="1" stop-color="#c31616"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-32" x1="0.212" y1="0.341" x2="1.371" y2="0.893" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e68787"/>
-      <stop offset="1" stop-color="#ffb7b7"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-33" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ec7272"/>
-      <stop offset="1" stop-color="#bc6868"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-34" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#eea6a6"/>
-      <stop offset="1" stop-color="#e46565"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-35" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e68888"/>
-      <stop offset="1" stop-color="#f5b0b0"/>
-      <stop offset="1" stop-color="#f6b2b2"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-36" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#c12d2d"/>
-      <stop offset="0.962" stop-color="#ec7171"/>
-      <stop offset="1" stop-color="#440202"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-37" x1="0.385" y1="0.352" x2="0.888" y2="1.16" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#941818"/>
-      <stop offset="1" stop-color="#a72525"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-38" x1="0.13" y1="0.102" x2="1" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#870000"/>
-      <stop offset="1" stop-color="#b72525"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-39" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ef0000"/>
-      <stop offset="0.958" stop-color="#ec8686"/>
-      <stop offset="1" stop-color="#e87a7a"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-40" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#9d1e1e"/>
-      <stop offset="1" stop-color="#dc2626"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-41" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#d22d2d"/>
-      <stop offset="1" stop-color="#340202"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-42" x1="0.154" y1="0.381" x2="0.81" y2="1.23" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#810000"/>
-      <stop offset="1" stop-color="#940909"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-43" x1="0.108" y1="0.175" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#740808"/>
-      <stop offset="1" stop-color="#f24545"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-44" y1="0.324" x2="0.5" y2="2.223" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#810a0a"/>
-      <stop offset="1" stop-color="#130000"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-45" x1="0.5" x2="1.115" y2="0.76" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#a80b0b"/>
-      <stop offset="1" stop-color="#3c0606"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-46" x1="0.149" y1="0.629" x2="0.579" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#551616"/>
-      <stop offset="1" stop-color="#a80b0b"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-47" x1="0.271" y1="0.139" x2="1" y2="0.639" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ab0000"/>
-      <stop offset="1" stop-color="#491919"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-48" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ab0000"/>
-      <stop offset="1" stop-color="#560000"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-49" x1="0.561" y1="0.272" x2="0.366" y2="0.578" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b70a0a"/>
-      <stop offset="1" stop-color="#5c0505"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-50" x1="0.5" y1="0.287" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#d54c4c"/>
-      <stop offset="1" stop-color="#f1abab"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-51" x1="1.111" y1="-0.131" x2="0" y2="1.587" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ed9d9d"/>
-      <stop offset="1" stop-color="#c56060"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-52" x1="0.5" y1="0.5" x2="1" y2="0.552" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ef2222"/>
-      <stop offset="1" stop-color="#df8888"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-53" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#be0000"/>
-      <stop offset="1" stop-color="#d66868"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-54" x1="0.5" x2="0.572" y2="1.219" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e65a5a"/>
-      <stop offset="1" stop-color="#cb4343"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-55" x1="0.307" y1="0.147" x2="0.896" y2="0.093" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#8a0000"/>
-      <stop offset="1" stop-color="#df6767"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-56" x1="1.377" y1="0.749" x2="0.354" y2="0.545" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f16b6b"/>
-      <stop offset="1" stop-color="#9a1111"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-57" x1="-0.301" y1="0.309" x2="1.38" y2="0.733" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#820000"/>
-      <stop offset="1" stop-color="#a10e0e"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-58" x1="0.5" x2="1.148" y2="1.218" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#c11616"/>
-      <stop offset="1" stop-color="#610b0b"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-59" x1="0.5" x2="0.5" y2="1.184" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#8a0000"/>
-      <stop offset="1" stop-color="#870a0a"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-60" x1="0.579" y1="0.595" x2="0" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#a71313"/>
-      <stop offset="1" stop-color="#540a0a"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-61" x1="0.34" y1="0.087" x2="1" y2="0.602" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#920000"/>
-      <stop offset="1" stop-color="#490000"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-62" x1="0.603" y1="0.344" x2="1.442" y2="0.945" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e51616"/>
-      <stop offset="0.919" stop-color="#740b0b"/>
-      <stop offset="1" stop-color="#730b0b"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-63" x1="1" y1="0.88" x2="0.22" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#d60000"/>
-      <stop offset="0.127" stop-color="#c00"/>
-      <stop offset="1" stop-color="#8a0000"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-64" x1="0.56" y1="1.987" x2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fb3037"/>
-      <stop offset="1" stop-color="#7e181c"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-65" x1="0.5" x2="0" y2="1.204" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#af0404"/>
-      <stop offset="1" stop-color="#580202"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-66" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#cb1212"/>
-      <stop offset="1" stop-color="#920303"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-67" x1="0.5" x2="0.92" y2="0.874" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fe1a1a"/>
-      <stop offset="1" stop-color="#7f0d0d"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-68" x1="0.601" y1="0.04" x2="-0.375" y2="0.175" xlink:href="#linear-gradient-58"/>
-    <linearGradient id="linear-gradient-69" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#dc2e2e"/>
-      <stop offset="1" stop-color="#8f0202"/>
-      <stop offset="1" stop-color="#6e1717"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-70" x1="1" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ae1313"/>
-      <stop offset="1" stop-color="#770303"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-71" x1="0.813" y1="0.123" x2="0.38" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b10f0f"/>
-      <stop offset="1" stop-color="#6e1717"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-72" x1="0.5" x2="0.846" y2="0.697" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e90707"/>
-      <stop offset="0.039" stop-color="#e50707"/>
-      <stop offset="1" stop-color="#750404"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-73" x1="0.604" y1="0.856" x2="0.626" y2="-0.289" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#c20e0e"/>
-      <stop offset="1" stop-color="#8b1919"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-74" x1="0.288" y1="0.157" x2="0.83" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#c20e0e"/>
-      <stop offset="1" stop-color="#610707"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-75" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e51616"/>
-      <stop offset="1" stop-color="#730b0b"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-76" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e51616"/>
-      <stop offset="1" stop-color="#880505"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-77" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#a20101"/>
-      <stop offset="1" stop-color="#720606"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-78" x1="0.768" x2="0.58" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#c20000"/>
-      <stop offset="1" stop-color="#8d0000"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-79" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#bf0808"/>
-      <stop offset="1" stop-color="#600404"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-80" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#800"/>
-      <stop offset="1" stop-color="#bb3838"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-81" x1="0.5" y1="1.142" x2="1.084" y2="0.159" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#a50808"/>
-      <stop offset="1" stop-color="#a51515"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-82" x1="-0.057" y1="1.304" x2="0.749" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#d44e4e"/>
-      <stop offset="1" stop-color="#770303"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-83" x1="0.5" x2="-0.155" y2="1.186" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#d12727"/>
-      <stop offset="1" stop-color="#691414"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-84" x1="0.878" y1="0.119" x2="0.213" y2="1.085" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b80404"/>
-      <stop offset="1" stop-color="#800707"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-85" x1="1" y1="-0.166" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b21d1d"/>
-      <stop offset="1" stop-color="#590f0f"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-86" x1="0.5" y1="0.855" x2="1" y2="-0.079" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#8f1010"/>
-      <stop offset="1" stop-color="#360505"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-87" y1="-0.467" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#d63636"/>
-      <stop offset="1" stop-color="#6b1b1b"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-88" x1="1.077" y1="0.316" x2="0.202" y2="1.293" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#b42222"/>
-      <stop offset="1" stop-color="#5a1111"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-89" x1="1" y1="1.45" x2="1" y2="-0.335" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#cf2d2d"/>
-      <stop offset="1" stop-color="#8d0000"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-90" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#bf1818"/>
-      <stop offset="1" stop-color="#670e0e"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-91" x1="0.5" x2="1.329" y2="0.375" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#8e0b0b"/>
-      <stop offset="1" stop-color="#600000"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-92" x1="1.407" y1="-0.679" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="red"/>
-      <stop offset="1" stop-color="maroon"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-93" x1="1.235" y1="-0.375" x2="0.135" y2="1.166" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#870b0b"/>
-      <stop offset="1" stop-color="#9b0b0b"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-94" x1="0.879" y1="-0.108" x2="0.5" y2="1" xlink:href="#linear-gradient-65"/>
-    <linearGradient id="linear-gradient-95" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ce4242"/>
-      <stop offset="1" stop-color="#f6b2b2"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-96" x1="0.078" y1="0.078" x2="0.753" y2="0.864" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#c94242"/>
-      <stop offset="1" stop-color="#d24343"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="895.761" height="434.466" viewBox="0 0 895.761 434.466">
   <g id="Gruppe_3" data-name="Gruppe 3" transform="translate(0.597 -345.203)">
-    <path id="Pfad_165" data-name="Pfad 165" d="M946.569,482.338l-16.28,19.472-3.834-58.952Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" opacity="0.83" fill="url(#linear-gradient)"/>
-    <path id="Pfad_166" data-name="Pfad 166" d="M930.289,501.81l-37.863-57.035,33.55-1.917Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-2)"/>
-    <path id="Pfad_167" data-name="Pfad 167" d="M874.8,404.675,891.921,444.4,852.09,432.822Z" transform="translate(-52 161)" fill="#f684f9" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_168" data-name="Pfad 168" d="M874.622,404.413l-28.185-27.444-41.864,7.308Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-3)"/>
-    <path id="Pfad_169" data-name="Pfad 169" d="M812.622,355.809l34.206,20.812-41.973,7.09Z" transform="translate(-52 161)" fill="#fe7373" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_170" data-name="Pfad 170" d="M759.611,336.393,811.1,354.936l-54.011,23.283Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-4)"/>
-    <path id="Pfad_171" data-name="Pfad 171" d="M758.3,336.393,702.455,320.25,733.3,370.966Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-5)"/>
-    <path id="Pfad_172" data-name="Pfad 172" d="M930.491,501.971,892.2,482.4v-38Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-6)"/>
-    <path id="Pfad_173" data-name="Pfad 173" d="M892.2,444.9V482.97l-39.988-49.63Z" transform="translate(-52 161)" fill="#f273f6" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_174" data-name="Pfad 174" d="M851.961,432.822,805.62,385.061l68.718,19.353Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-7)"/>
-    <path id="Pfad_175" data-name="Pfad 175" d="M757.084,378.219l-23.694-7.554,25.372-33.5Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-8)"/>
-    <path id="Pfad_176" data-name="Pfad 176" d="M757.987,378.219l46.471,5.551,7.874-28.657Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-9)"/>
-    <path id="Pfad_177" data-name="Pfad 177" d="M875.233,404.893s53.229,38.177,52.139,38.177-34.686,1.745-34.686,1.745Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-10)"/>
-    <path id="Pfad_178" data-name="Pfad 178" d="M926.935,442.634c-.61-.218-41.013-66.319-41.013-66.319l-10.908,27.924S927.545,442.852,926.935,442.634Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-11)"/>
-    <path id="Pfad_179" data-name="Pfad 179" d="M847.091,376.97l38.613-1.527L874.8,403.8Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-12)"/>
-    <path id="Pfad_180" data-name="Pfad 180" d="M885.7,375.443c-.873-.654-38.831-44.285-38.831-44.285l-56.5-26.615Z" transform="translate(-52 161)" fill="#f99a9a" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_181" data-name="Pfad 181" d="M847.745,376.751,790.371,305.2l95.551,70.245-20.326.7Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-13)"/>
-    <path id="Pfad_182" data-name="Pfad 182" d="M812.623,355.372l-22.683-50.38,57.151,70.669Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-14)"/>
-    <path id="Pfad_183" data-name="Pfad 183" d="M789.935,305.2l-30.978,30.76,53.229,19.2Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)"/>
-    <path id="Pfad_184" data-name="Pfad 184" d="M789.94,304.543c-.559-.47-87.988,14.969-87.988,14.969l56.72,16.781Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-16)"/>
-    <path id="Pfad_185" data-name="Pfad 185" d="M723.767,286.788l-21.48,32.22s89.611-14.1,88.268-14.6S723.767,286.788,723.767,286.788Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-17)"/>
-    <path id="Pfad_186" data-name="Pfad 186" d="M542.07,228.618l168.25,56.133-42.993-44.862Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-18)"/>
-    <path id="Pfad_187" data-name="Pfad 187" d="M702.455,319.008c-15.162,4.988-65.416,36.623-65.416,36.623l42.586,18.21Z" transform="translate(-52 161)" fill="#d80000" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_188" data-name="Pfad 188" d="M680.1,373.841l52.242-3.355-30.195-50.8Z" transform="translate(-52 161)" fill="#e11717" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_189" data-name="Pfad 189" d="M636.488,355.154,539.673,226.7l162,91.543Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-19)"/>
-    <path id="Pfad_190" data-name="Pfad 190" d="M722.759,286.788c-2.4,4.137-20.15,31.664-20.15,31.664L539.673,226.7Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-20)"/>
-    <path id="Pfad_191" data-name="Pfad 191" d="M875.646,574.087l-20.8-43.233,6.958,56.507Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-21)"/>
-    <path id="Pfad_192" data-name="Pfad 192" d="M854.85,530.854,826.3,559.7l9.8,15.683Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-22)"/>
-    <path id="Pfad_193" data-name="Pfad 193" d="M861.575,587.361,836.54,575.38,854.8,531.749Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-23)"/>
-    <path id="Pfad_194" data-name="Pfad 194" d="M855.053,531.466l6.523-28.076-21.554-61.258Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-24)"/>
-    <path id="Pfad_195" data-name="Pfad 195" d="M826.3,559.7,814.54,500.448l40.31,29.883Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-25)"/>
-    <path id="Pfad_196" data-name="Pfad 196" d="M839.6,442.132l-12.458-28.814-20.809,19.8Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-26)"/>
-    <path id="Pfad_197" data-name="Pfad 197" d="M806.5,433.287l47.137,95.626-14.464-86.5Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-27)"/>
-    <path id="Pfad_198" data-name="Pfad 198" d="M853.417,529.241l-47.255-96.457,8.344,67.178Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-28)"/>
-    <path id="Pfad_199" data-name="Pfad 199" d="M806.33,432.951l-39.435-24.5,60.412,4.7Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-29)"/>
-    <path id="Pfad_200" data-name="Pfad 200" d="M802.806,386.3l23.829,26.514-59.741-4.531Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-30)"/>
-    <path id="Pfad_201" data-name="Pfad 201" d="M813.015,488.25l-47.3-79.582L806,433.341Z" transform="translate(-52 161)" fill="#b50000" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_202" data-name="Pfad 202" d="M765.72,408.451c-3.97-2.336-41.973-36.084-41.973-36.084l79.692,13.9Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-31)"/>
-    <path id="Pfad_203" data-name="Pfad 203" d="M821.89,577.319l-11.717,10.923,7.73-30.967Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" opacity="0.83" fill="url(#linear-gradient-32)"/>
-    <path id="Pfad_204" data-name="Pfad 204" d="M817.637,556,795.6,560.818l13.69,28.026Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" opacity="0.83" fill="url(#linear-gradient-33)"/>
-    <path id="Pfad_205" data-name="Pfad 205" d="M795.31,560.877l-17.862-17.744,7.227,37.6Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-34)"/>
-    <path id="Pfad_206" data-name="Pfad 206" d="M808.895,588.971l-24.337-7.412,10.87-20.623Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" opacity="0.83" fill="url(#linear-gradient-35)"/>
-    <path id="Pfad_207" data-name="Pfad 207" d="M795.087,560.655c-.391-1.342-.839-39.1-.839-39.1L777.634,542.7Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-36)"/>
-    <path id="Pfad_208" data-name="Pfad 208" d="M794.685,521.388,776.46,476.75l32.91,23.35Z" transform="translate(-52.504 159.825)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-37)"/>
-    <path id="Pfad_209" data-name="Pfad 209" d="M775.62,475.575l-14.6-30.877,31.212,17.62Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-38)"/>
-    <path id="Pfad_210" data-name="Pfad 210" d="M794.415,521.555l23.493,33.9-22.821,5.2Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-39)"/>
-    <path id="Pfad_211" data-name="Pfad 211" d="M809.381,499.57l8.191,55.547-23.326-34.233Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-40)"/>
-    <path id="Pfad_212" data-name="Pfad 212" d="M791.747,462.16l17.763,37.023-33.555-23.944Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-41)"/>
-    <path id="Pfad_213" data-name="Pfad 213" d="M765.72,408.941l-5.035,35.085,30.877,17.788Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-42)"/>
-    <path id="Pfad_214" data-name="Pfad 214" d="M775.955,476.582l1.343,65.11,17.117-20.976Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-43)"/>
-    <path id="Pfad_215" data-name="Pfad 215" d="M776.627,530.854c-1.007-.237-16.463-31.427-16.463-31.427l15.12-23.349Z" transform="translate(-52 161)" fill="#750000" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_216" data-name="Pfad 216" d="M760.181,444.4v55.026c0-1.342,15.606-24.188,15.606-24.188Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-44)"/>
-    <path id="Pfad_217" data-name="Pfad 217" d="M760.181,444.194c-.091-.039-39.268,10.069-39.268,10.069l39.268,45.164Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-45)"/>
-    <path id="Pfad_218" data-name="Pfad 218" d="M760.685,443.691l-37.757-34.9h42.288Z" transform="translate(-52 161)" fill="#810000" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_219" data-name="Pfad 219" d="M722.256,408.954l-1.846,45.477,40.274-10.572Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-46)"/>
-    <path id="Pfad_220" data-name="Pfad 220" d="M722.612,409.234l-48.3-18.434,46.6,63.413Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-47)"/>
-    <path id="Pfad_221" data-name="Pfad 221" d="M673.307,389.836l91.908,18.2-43.114.775Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-48)"/>
-    <path id="Pfad_222" data-name="Pfad 222" d="M722.746,371.764l-49.052,17.943,90.618,18.2Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-49)"/>
-    <path id="Pfad_223" data-name="Pfad 223" d="M705.063,433.081l-2.27,68.171-22.487-13.089Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-50)"/>
-    <path id="Pfad_224" data-name="Pfad 224" d="M652.934,592.287l3.162-46.525,27.922,23.74Z" transform="translate(-51.349 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-51)"/>
-    <path id="Pfad_225" data-name="Pfad 225" d="M634.173,575.271l21.969-29.885-3.208,46.9Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-52)"/>
-    <path id="Pfad_226" data-name="Pfad 226" d="M639.867,530.542l16.086,14.4-22,30.113Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-53)"/>
-    <path id="Pfad_227" data-name="Pfad 227" d="M673.437,391.128l6.869,96.363,24.628-54.54Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-54)"/>
-    <path id="Pfad_228" data-name="Pfad 228" d="M669.313,431.836,641.7,438.585l31.267,47.738Z" transform="translate(-45 162)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-55)"/>
-    <path id="Pfad_229" data-name="Pfad 229" d="M673.21,390.432l-24.7,48.666,27.705-7.155Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-56)"/>
-    <path id="Pfad_230" data-name="Pfad 230" d="M648.14,437.623c-.737-3.687-17.8-32.672-17.8-32.672l5.666-49.449Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-57)"/>
-    <path id="Pfad_231" data-name="Pfad 231" d="M636.651,356.535l36.19,33.16-24.557,49.078Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-58)"/>
-    <path id="Pfad_232" data-name="Pfad 232" d="M673.307,389.242l6.043-15.1,42.932-1.981Z" transform="translate(-52 161)" fill="#870000" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_233" data-name="Pfad 233" d="M636.522,356.019l42.391,17.471-5.684,15.951Z" transform="translate(-52 161)" fill="#ab0000" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_234" data-name="Pfad 234" d="M681.977,487,646.9,466.361l2.4-28.477Z" transform="translate(-53 163)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-59)"/>
-    <path id="Pfad_235" data-name="Pfad 235" d="M722.927,569.165l-27.888-34.25h36Z" transform="translate(-52 161)" fill="#f8d9d9" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_236" data-name="Pfad 236" d="M683.058,542.345l-42.339-11.794,48.43,42.976Z" transform="translate(-52 161)" fill="#eb8989" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_237" data-name="Pfad 237" d="M722.963,569.165l-16.8,11.562-10.908-44.94Z" transform="translate(-52 161)" fill="#f8b3b3" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_238" data-name="Pfad 238" d="M706.384,580.509c.141-.436-17.671-6.981-17.671-6.981l-5.655-30.965Z" transform="translate(-52 161)" fill="#c96666" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_239" data-name="Pfad 239" d="M674.529,498.7l21.6,36.653H731.69Z" transform="translate(-52 161)" fill="#ffc5c5" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_240" data-name="Pfad 240" d="M731.69,534.914,701.8,501.1l-26.816-2.174Z" transform="translate(-52 161)" fill="#750000" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_241" data-name="Pfad 241" d="M644.931,468.581l29.521,30.041,27.786,2.7Z" transform="translate(-52 161)" fill="#a80000" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_243" data-name="Pfad 243" d="M639.193,530.116l4.712-14.757L682.84,541.69Z" transform="translate(-52 161)" fill="#f77" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_244" data-name="Pfad 244" d="M645.956,469.032l-1.963,46.249L674.1,499.356Z" transform="translate(-52 161)" fill="#f85757" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_245" data-name="Pfad 245" d="M694.822,534.479l-20.07-35.123-30.474,16.351Z" transform="translate(-52 161)" fill="#ffa2a2" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_246" data-name="Pfad 246" d="M645.956,469.9l-53.884,25.96,51.048,19.2Z" transform="translate(-52 161)" fill="#ee2d2d" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_247" data-name="Pfad 247" d="M646.124,469.674l-92.545-35.052,38.229,61.961Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-60)"/>
-    <path id="Pfad_248" data-name="Pfad 248" d="M595.28,415.193l-42.54,19,91.887,34.6Z" transform="translate(-52 161)" fill="#b20000" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_249" data-name="Pfad 249" d="M552.74,434.622,494.4,456.8l96.226,39.08" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-61)"/>
-    <path id="Pfad_250" data-name="Pfad 250" d="M494.4,456.8H465.876l10.461-55.671Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-62)"/>
-    <path id="Pfad_251" data-name="Pfad 251" d="M476.706,401.863l-81.479,7.742,70.05,47.929Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-63)"/>
-    <path id="Pfad_252" data-name="Pfad 252" d="M373.106,383.061l103.231,18.434-81.847,8.111Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-64)"/>
-    <path id="Pfad_253" data-name="Pfad 253" d="M371.632,382.692c-3.687.369-91.8,53.09-91.8,53.09l38.343-58.252Z" transform="translate(-52 161)" fill="#6b0303" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_254" data-name="Pfad 254" d="M281.673,435.045l-70.787-8.48L198.72,529.8Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-65)"/>
-    <path id="Pfad_255" data-name="Pfad 255" d="M198.72,529.8l-81.294,11.318L84.354,599.108Z" transform="translate(-52 161)" fill="#8e1313" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_256" data-name="Pfad 256" d="M84.834,599.108,52.722,516.191V617.8Z" transform="translate(-52 161)" fill="#530000" stroke="#fff" stroke-width="1" opacity="0.83"/>
-    <path id="Pfad_257" data-name="Pfad 257" d="M595.563,415.367,564.65,311.394,552.8,434.346Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-66)"/>
-    <path id="Pfad_258" data-name="Pfad 258" d="M630.162,404.983l-39.137-4.538,43.958-45.376Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-67)"/>
-    <path id="Pfad_259" data-name="Pfad 259" d="M590.629,399.557c-1.3-2.231-50.935-172.676-50.935-172.676l96.141,127.337Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-68)"/>
-    <path id="Pfad_260" data-name="Pfad 260" d="M494.6,456.6l-18.151-55.87,76.005,32.9Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-69)"/>
-    <path id="Pfad_261" data-name="Pfad 261" d="M564.6,313.219l-88.189,87.944,76.528,32.462Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-70)"/>
-    <path id="Pfad_262" data-name="Pfad 262" d="M539.978,227.165c-.715,1.869-63.327,173.471-63.327,173.471L564.935,313.1Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-71)"/>
-    <path id="Pfad_263" data-name="Pfad 263" d="M508.044,314.412c-1.917-2.123-114.55-123.656-114.55-123.656L539.2,226.7Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-72)"/>
-    <path id="Pfad_264" data-name="Pfad 264" d="M393.495,190.756s-93.461-7.189-93.461-5.751,53.2,50.325,53.2,50.325Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-73)"/>
-    <path id="Pfad_265" data-name="Pfad 265" d="M508.044,314.412,352.755,234.851l41.219-44.094Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-74)"/>
-    <path id="Pfad_266" data-name="Pfad 266" d="M476.451,400.751,352.276,234.371l155.289,79.562Z" transform="translate(-52 161)" fill="#970404" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_267" data-name="Pfad 267" d="M352.755,235.33l19.983,146.994L475.969,401.5Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-75)"/>
-    <path id="Pfad_268" data-name="Pfad 268" d="M300.034,184.815,199.089,238.538,353.2,235.588Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-76)"/>
-    <path id="Pfad_269" data-name="Pfad 269" d="M198.72,238.538,136.044,268.4l55.3,8.111Z" transform="translate(-52 161)" fill="#950808" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_270" data-name="Pfad 270" d="M352.276,235.33,288.31,296.421l-21.384-59.358Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-77)"/>
-    <path id="Pfad_271" data-name="Pfad 271" d="M289.047,296.421c-.369,1.106,83.691,85.534,83.691,85.534L353.2,235.588Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-78)"/>
-    <path id="Pfad_272" data-name="Pfad 272" d="M318.173,377.53s-29.863-83.69-29.863-82.216,84.8,87.378,83.691,87.378S318.173,377.53,318.173,377.53Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-79)"/>
-    <path id="Pfad_273" data-name="Pfad 273" d="M191.715,276.512l75.58-39.08H199.826Z" transform="translate(-52 161)" fill="#950808" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_274" data-name="Pfad 274" d="M192.084,276.881l96.226,19.172-21.384-58.621Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-80)"/>
-    <path id="Pfad_275" data-name="Pfad 275" d="M281.3,433.94l7-137.887L318.173,377.9Z" transform="translate(-52 161)" fill="#8d0000" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_276" data-name="Pfad 276" d="M210.518,426.565l77.423-130.144L281.3,435.414Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-81)"/>
-    <path id="Pfad_277" data-name="Pfad 277" d="M286.875,296.421,191.541,347.3V276.185Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-82)"/>
-    <path id="Pfad_278" data-name="Pfad 278" d="M210.52,426.712c-1.088-.654-18.98-79.409-18.98-79.409l95.552-51.048Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-83)"/>
-    <path id="Pfad_279" data-name="Pfad 279" d="M116.844,541.113c1.985-3.12,93.305-114.292,93.305-114.292S199.656,529.2,198.805,529.2,116.844,541.113,116.844,541.113Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-84)"/>
-    <path id="Pfad_280" data-name="Pfad 280" d="M52.722,516.191l63.555,24.638L84.8,598.968Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-85)"/>
-    <path id="Pfad_281" data-name="Pfad 281" d="M52.466,516.156l81.11-56.72-16.449,81.11Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-86)"/>
-    <path id="Pfad_282" data-name="Pfad 282" d="M210.149,426.538l-76.005,32.614-16.733,79.409Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-87)"/>
-    <path id="Pfad_283" data-name="Pfad 283" d="M191.541,347.3,133.86,459.152l76.856-32.9Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-88)"/>
-    <path id="Pfad_284" data-name="Pfad 284" d="M135.76,268.835l55.388,77.727V276.228Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-89)"/>
-    <path id="Pfad_285" data-name="Pfad 285" d="M90.786,274.037c.839-.336,44.638-5.538,44.638-5.538L53.2,313.641Z" transform="translate(-52 161)" fill="#841616" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_286" data-name="Pfad 286" d="M53.2,289.979l38.078-17.031L53.2,313.3Z" transform="translate(-52 161)" fill="#911010" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_287" data-name="Pfad 287" d="M90.283,273.03l71.656-17.62L136.1,268.164Z" transform="translate(-52 161)" fill="#6b0303" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_288" data-name="Pfad 288" d="M191.236,347,81,393.016l52.861,66.136Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-90)"/>
-    <path id="Pfad_289" data-name="Pfad 289" d="M81,392.506l-28.817-5.672V515.873Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" opacity="0.83" fill="url(#linear-gradient-91)"/>
-    <path id="Pfad_290" data-name="Pfad 290" d="M81.678,391.939,135.846,268l55.19,78.789Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-92)"/>
-    <path id="Pfad_291" data-name="Pfad 291" d="M53,386.834l28.678,5.672,54.452-124.218L53,314.232Z" transform="translate(-52 161)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-93)"/>
-    <path id="Pfad_292" data-name="Pfad 292" d="M592.072,496.583l46.464,33.879,5.034-15.1Z" transform="translate(-52 161)" fill="#be6060" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_293" data-name="Pfad 293" d="M695.275,535.146l-12.217,6.108-36.214-24Z" transform="translate(-52 161)" fill="#f59292" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_294" data-name="Pfad 294" d="M694.625,535.588l10.714,42.857-22.72-37.307Z" transform="translate(-52 161)" fill="#ffdfdf" stroke="#fff" stroke-width="1"/>
-    <path id="Pfad_295" data-name="Pfad 295" d="M149.943,571.076l-81.426,57.3,28.5-123.629Z" transform="translate(-68 49)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-94)"/>
-    <path id="Pfad_297" data-name="Pfad 297" d="M859.027,488.783l-1.414-25.408-18.7-17.821Z" transform="translate(-35.172 246.212)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-95)"/>
-    <path id="Pfad_298" data-name="Pfad 298" d="M862.924,686.859l12.3,42.421-18.614-16.9Z" transform="translate(-53 -21)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-96)"/>
+    <path id="Pfad_165" data-name="Pfad 165" d="M946.569,482.338l-16.28,19.472-3.834-58.952Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1" opacity="0.83"/>
+    <path id="Pfad_166" data-name="Pfad 166" d="M930.289,501.81l-37.863-57.035,33.55-1.917Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_167" data-name="Pfad 167" d="M874.8,404.675,891.921,444.4,852.09,432.822Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_168" data-name="Pfad 168" d="M874.622,404.413l-28.185-27.444-41.864,7.308Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_169" data-name="Pfad 169" d="M812.622,355.809l34.206,20.812-41.973,7.09Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_170" data-name="Pfad 170" d="M759.611,336.393,811.1,354.936l-54.011,23.283Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_171" data-name="Pfad 171" d="M758.3,336.393,702.455,320.25,733.3,370.966Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_172" data-name="Pfad 172" d="M930.491,501.971,892.2,482.4v-38Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_173" data-name="Pfad 173" d="M892.2,444.9V482.97l-39.988-49.63Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_174" data-name="Pfad 174" d="M851.961,432.822,805.62,385.061l68.718,19.353Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_175" data-name="Pfad 175" d="M757.084,378.219l-23.694-7.554,25.372-33.5Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_176" data-name="Pfad 176" d="M757.987,378.219l46.471,5.551,7.874-28.657Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_177" data-name="Pfad 177" d="M875.233,404.893s53.229,38.177,52.139,38.177-34.686,1.745-34.686,1.745Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_178" data-name="Pfad 178" d="M926.935,442.634c-.61-.218-41.013-66.319-41.013-66.319l-10.908,27.924S927.545,442.852,926.935,442.634Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_179" data-name="Pfad 179" d="M847.091,376.97l38.613-1.527L874.8,403.8Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_180" data-name="Pfad 180" d="M885.7,375.443c-.873-.654-38.831-44.285-38.831-44.285l-56.5-26.615Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_181" data-name="Pfad 181" d="M847.745,376.751,790.371,305.2l95.551,70.245-20.326.7Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_182" data-name="Pfad 182" d="M812.623,355.372l-22.683-50.38,57.151,70.669Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_183" data-name="Pfad 183" d="M789.935,305.2l-30.978,30.76,53.229,19.2Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_184" data-name="Pfad 184" d="M789.94,304.543c-.559-.47-87.988,14.969-87.988,14.969l56.72,16.781Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_185" data-name="Pfad 185" d="M723.767,286.788l-21.48,32.22s89.611-14.1,88.268-14.6S723.767,286.788,723.767,286.788Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_186" data-name="Pfad 186" d="M542.07,228.618l168.25,56.133-42.993-44.862Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_187" data-name="Pfad 187" d="M702.455,319.008c-15.162,4.988-65.416,36.623-65.416,36.623l42.586,18.21Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_188" data-name="Pfad 188" d="M680.1,373.841l52.242-3.355-30.195-50.8Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_189" data-name="Pfad 189" d="M636.488,355.154,539.673,226.7l162,91.543Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_190" data-name="Pfad 190" d="M722.759,286.788c-2.4,4.137-20.15,31.664-20.15,31.664L539.673,226.7Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_191" data-name="Pfad 191" d="M875.646,574.087l-20.8-43.233,6.958,56.507Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_192" data-name="Pfad 192" d="M854.85,530.854,826.3,559.7l9.8,15.683Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_193" data-name="Pfad 193" d="M861.575,587.361,836.54,575.38,854.8,531.749Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_194" data-name="Pfad 194" d="M855.053,531.466l6.523-28.076-21.554-61.258Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_195" data-name="Pfad 195" d="M826.3,559.7,814.54,500.448l40.31,29.883Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_196" data-name="Pfad 196" d="M839.6,442.132l-12.458-28.814-20.809,19.8Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_197" data-name="Pfad 197" d="M806.5,433.287l47.137,95.626-14.464-86.5Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_198" data-name="Pfad 198" d="M853.417,529.241l-47.255-96.457,8.344,67.178Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_199" data-name="Pfad 199" d="M806.33,432.951l-39.435-24.5,60.412,4.7Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_200" data-name="Pfad 200" d="M802.806,386.3l23.829,26.514-59.741-4.531Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_201" data-name="Pfad 201" d="M813.015,488.25l-47.3-79.582L806,433.341Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_202" data-name="Pfad 202" d="M765.72,408.451c-3.97-2.336-41.973-36.084-41.973-36.084l79.692,13.9Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_203" data-name="Pfad 203" d="M821.89,577.319l-11.717,10.923,7.73-30.967Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1" opacity="0.83"/>
+    <path id="Pfad_204" data-name="Pfad 204" d="M817.637,556,795.6,560.818l13.69,28.026Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1" opacity="0.83"/>
+    <path id="Pfad_205" data-name="Pfad 205" d="M795.31,560.877l-17.862-17.744,7.227,37.6Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_206" data-name="Pfad 206" d="M808.895,588.971l-24.337-7.412,10.87-20.623Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1" opacity="0.83"/>
+    <path id="Pfad_207" data-name="Pfad 207" d="M795.087,560.655c-.391-1.342-.839-39.1-.839-39.1L777.634,542.7Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_208" data-name="Pfad 208" d="M794.685,521.388,776.46,476.75l32.91,23.35Z" transform="translate(-52.504 159.825)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_209" data-name="Pfad 209" d="M775.62,475.575l-14.6-30.877,31.212,17.62Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_210" data-name="Pfad 210" d="M794.415,521.555l23.493,33.9-22.821,5.2Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_211" data-name="Pfad 211" d="M809.381,499.57l8.191,55.547-23.326-34.233Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_212" data-name="Pfad 212" d="M791.747,462.16l17.763,37.023-33.555-23.944Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_213" data-name="Pfad 213" d="M765.72,408.941l-5.035,35.085,30.877,17.788Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_214" data-name="Pfad 214" d="M775.955,476.582l1.343,65.11,17.117-20.976Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_215" data-name="Pfad 215" d="M776.627,530.854c-1.007-.237-16.463-31.427-16.463-31.427l15.12-23.349Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_216" data-name="Pfad 216" d="M760.181,444.4v55.026c0-1.342,15.606-24.188,15.606-24.188Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_217" data-name="Pfad 217" d="M760.181,444.194c-.091-.039-39.268,10.069-39.268,10.069l39.268,45.164Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_218" data-name="Pfad 218" d="M760.685,443.691l-37.757-34.9h42.288Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_219" data-name="Pfad 219" d="M722.256,408.954l-1.846,45.477,40.274-10.572Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_220" data-name="Pfad 220" d="M722.612,409.234l-48.3-18.434,46.6,63.413Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_221" data-name="Pfad 221" d="M673.307,389.836l91.908,18.2-43.114.775Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_222" data-name="Pfad 222" d="M722.746,371.764l-49.052,17.943,90.618,18.2Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_223" data-name="Pfad 223" d="M705.063,433.081l-2.27,68.171-22.487-13.089Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_224" data-name="Pfad 224" d="M652.934,592.287l3.162-46.525,27.922,23.74Z" transform="translate(-51.349 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_225" data-name="Pfad 225" d="M634.173,575.271l21.969-29.885-3.208,46.9Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_226" data-name="Pfad 226" d="M639.867,530.542l16.086,14.4-22,30.113Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_227" data-name="Pfad 227" d="M673.437,391.128l6.869,96.363,24.628-54.54Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_228" data-name="Pfad 228" d="M669.313,431.836,641.7,438.585l31.267,47.738Z" transform="translate(-45 162)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_229" data-name="Pfad 229" d="M673.21,390.432l-24.7,48.666,27.705-7.155Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_230" data-name="Pfad 230" d="M648.14,437.623c-.737-3.687-17.8-32.672-17.8-32.672l5.666-49.449Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_231" data-name="Pfad 231" d="M636.651,356.535l36.19,33.16-24.557,49.078Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_232" data-name="Pfad 232" d="M673.307,389.242l6.043-15.1,42.932-1.981Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_233" data-name="Pfad 233" d="M636.522,356.019l42.391,17.471-5.684,15.951Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_234" data-name="Pfad 234" d="M681.977,487,646.9,466.361l2.4-28.477Z" transform="translate(-53 163)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_235" data-name="Pfad 235" d="M722.927,569.165l-27.888-34.25h36Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_236" data-name="Pfad 236" d="M683.058,542.345l-42.339-11.794,48.43,42.976Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_237" data-name="Pfad 237" d="M722.963,569.165l-16.8,11.562-10.908-44.94Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_238" data-name="Pfad 238" d="M706.384,580.509c.141-.436-17.671-6.981-17.671-6.981l-5.655-30.965Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_239" data-name="Pfad 239" d="M674.529,498.7l21.6,36.653H731.69Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_240" data-name="Pfad 240" d="M731.69,534.914,701.8,501.1l-26.816-2.174Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_241" data-name="Pfad 241" d="M644.931,468.581l29.521,30.041,27.786,2.7Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_243" data-name="Pfad 243" d="M639.193,530.116l4.712-14.757L682.84,541.69Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_244" data-name="Pfad 244" d="M645.956,469.032l-1.963,46.249L674.1,499.356Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_245" data-name="Pfad 245" d="M694.822,534.479l-20.07-35.123-30.474,16.351Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_246" data-name="Pfad 246" d="M645.956,469.9l-53.884,25.96,51.048,19.2Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_247" data-name="Pfad 247" d="M646.124,469.674l-92.545-35.052,38.229,61.961Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_248" data-name="Pfad 248" d="M595.28,415.193l-42.54,19,91.887,34.6Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_249" data-name="Pfad 249" d="M552.74,434.622,494.4,456.8l96.226,39.08" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_250" data-name="Pfad 250" d="M494.4,456.8H465.876l10.461-55.671Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_251" data-name="Pfad 251" d="M476.706,401.863l-81.479,7.742,70.05,47.929Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_252" data-name="Pfad 252" d="M373.106,383.061l103.231,18.434-81.847,8.111Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_253" data-name="Pfad 253" d="M371.632,382.692c-3.687.369-91.8,53.09-91.8,53.09l38.343-58.252Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_254" data-name="Pfad 254" d="M281.673,435.045l-70.787-8.48L198.72,529.8Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_255" data-name="Pfad 255" d="M198.72,529.8l-81.294,11.318L84.354,599.108Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_256" data-name="Pfad 256" d="M84.834,599.108,52.722,516.191V617.8Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1" opacity="0.83"/>
+    <path id="Pfad_257" data-name="Pfad 257" d="M595.563,415.367,564.65,311.394,552.8,434.346Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_258" data-name="Pfad 258" d="M630.162,404.983l-39.137-4.538,43.958-45.376Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_259" data-name="Pfad 259" d="M590.629,399.557c-1.3-2.231-50.935-172.676-50.935-172.676l96.141,127.337Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_260" data-name="Pfad 260" d="M494.6,456.6l-18.151-55.87,76.005,32.9Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_261" data-name="Pfad 261" d="M564.6,313.219l-88.189,87.944,76.528,32.462Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_262" data-name="Pfad 262" d="M539.978,227.165c-.715,1.869-63.327,173.471-63.327,173.471L564.935,313.1Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_263" data-name="Pfad 263" d="M508.044,314.412c-1.917-2.123-114.55-123.656-114.55-123.656L539.2,226.7Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_264" data-name="Pfad 264" d="M393.495,190.756s-93.461-7.189-93.461-5.751,53.2,50.325,53.2,50.325Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_265" data-name="Pfad 265" d="M508.044,314.412,352.755,234.851l41.219-44.094Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_266" data-name="Pfad 266" d="M476.451,400.751,352.276,234.371l155.289,79.562Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_267" data-name="Pfad 267" d="M352.755,235.33l19.983,146.994L475.969,401.5Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_268" data-name="Pfad 268" d="M300.034,184.815,199.089,238.538,353.2,235.588Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_269" data-name="Pfad 269" d="M198.72,238.538,136.044,268.4l55.3,8.111Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_270" data-name="Pfad 270" d="M352.276,235.33,288.31,296.421l-21.384-59.358Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_271" data-name="Pfad 271" d="M289.047,296.421c-.369,1.106,83.691,85.534,83.691,85.534L353.2,235.588Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_272" data-name="Pfad 272" d="M318.173,377.53s-29.863-83.69-29.863-82.216,84.8,87.378,83.691,87.378S318.173,377.53,318.173,377.53Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_273" data-name="Pfad 273" d="M191.715,276.512l75.58-39.08H199.826Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_274" data-name="Pfad 274" d="M192.084,276.881l96.226,19.172-21.384-58.621Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_275" data-name="Pfad 275" d="M281.3,433.94l7-137.887L318.173,377.9Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_276" data-name="Pfad 276" d="M210.518,426.565l77.423-130.144L281.3,435.414Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_277" data-name="Pfad 277" d="M286.875,296.421,191.541,347.3V276.185Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_278" data-name="Pfad 278" d="M210.52,426.712c-1.088-.654-18.98-79.409-18.98-79.409l95.552-51.048Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_279" data-name="Pfad 279" d="M116.844,541.113c1.985-3.12,93.305-114.292,93.305-114.292S199.656,529.2,198.805,529.2,116.844,541.113,116.844,541.113Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_280" data-name="Pfad 280" d="M52.722,516.191l63.555,24.638L84.8,598.968Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_281" data-name="Pfad 281" d="M52.466,516.156l81.11-56.72-16.449,81.11Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_282" data-name="Pfad 282" d="M210.149,426.538l-76.005,32.614-16.733,79.409Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_283" data-name="Pfad 283" d="M191.541,347.3,133.86,459.152l76.856-32.9Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_284" data-name="Pfad 284" d="M135.76,268.835l55.388,77.727V276.228Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_285" data-name="Pfad 285" d="M90.786,274.037c.839-.336,44.638-5.538,44.638-5.538L53.2,313.641Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_286" data-name="Pfad 286" d="M53.2,289.979l38.078-17.031L53.2,313.3Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_287" data-name="Pfad 287" d="M90.283,273.03l71.656-17.62L136.1,268.164Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_288" data-name="Pfad 288" d="M191.236,347,81,393.016l52.861,66.136Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_289" data-name="Pfad 289" d="M81,392.506l-28.817-5.672V515.873Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1" opacity="0.83"/>
+    <path id="Pfad_290" data-name="Pfad 290" d="M81.678,391.939,135.846,268l55.19,78.789Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_291" data-name="Pfad 291" d="M53,386.834l28.678,5.672,54.452-124.218L53,314.232Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_292" data-name="Pfad 292" d="M592.072,496.583l46.464,33.879,5.034-15.1Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_293" data-name="Pfad 293" d="M695.275,535.146l-12.217,6.108-36.214-24Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_294" data-name="Pfad 294" d="M694.625,535.588l10.714,42.857-22.72-37.307Z" transform="translate(-52 161)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_295" data-name="Pfad 295" d="M149.943,571.076l-81.426,57.3,28.5-123.629Z" transform="translate(-68 49)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_297" data-name="Pfad 297" d="M859.027,488.783l-1.414-25.408-18.7-17.821Z" transform="translate(-35.172 246.212)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Pfad_298" data-name="Pfad 298" d="M862.924,686.859l12.3,42.421-18.614-16.9Z" transform="translate(-53 -21)" fill="none" stroke="#fff" stroke-width="1"/>
   </g>
 </svg>
