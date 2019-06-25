@@ -4,7 +4,6 @@
 
        var $horizontal = $('.section1 .col-xl-6 #hori ');
        var $horizontal2 = $('#hori2 ');
-       var circle= $('.circle');
 
        var position = $horizontal.position();
        var percentLeft = (position.left / $(window).width() * 100*2);
@@ -14,12 +13,11 @@
            $horizontal2.addClass('handrechts');
             circle.addClass('circleanimate');
 
-           $('#heart').fadeIn(1000);
        });
 
        });*/
 
-        var s = $(this).scrollTop(),
+      /*  var s = $(this).scrollTop(),
             d = $(document).height(),
             c = $(this).height();
         scrollPercent = (s / (d - c))*5;
@@ -34,34 +32,37 @@
         if (position3>=0) {
             $('#heart').fadeIn(1000);
 
-            $('#hori svg path').each(function (i, value){
 
-                        $(this).attr('class', 'cls-'+i);
-
-                });
-
-
-            $('#hori2 svg path').each(function (i, value){
-
-                    $(this).attr('class', 'cls-' + i);
-
-            });
         }
-        if (position3<=0){
+        if (position3<=0){*/
+
+               setTimeout( function() { $('#hori svg path').each(function (i, value) {
+                   $(this).attr('class', 'cls-' + i)
+               });
+                   },500);
+
+
+               setTimeout( function() { $('#hori2 svg path').each(function (i, value) {
+                   $(this).attr('class', 'cls-' + i)
+               });
+               },500);
+               $('#heart').fadeIn(1000);
 
             $horizontal.css({
-                'left': position2,
+                'left': '0',
+                'transition': '500ms all',
+
             });
 
 
 
 
             $horizontal2.css({
-                'right': position2,
-
+                'right': '0',
+                'transition': '500ms all',
             });
 
-        }
+        });
 
 
 
@@ -70,7 +71,7 @@
 
 
 
-       });
+     //  });
 
 
 /*

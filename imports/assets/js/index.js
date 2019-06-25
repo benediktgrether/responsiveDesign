@@ -144,7 +144,7 @@ function init() {
     var controls = new THREE.OrbitControls(camera, renderer.domElement);
     controls.minPolarAngle = Math.PI / 2;
     controls.maxPolarAngle = Math.PI / 2;
-
+    controls.enableZoom = false;
     update(renderer, scene, camera, controls);
     controls.minDistance = 6;
     controls.maxDistance = 6;
