@@ -158,3 +158,88 @@
 
    });
 
+   /* nachladen*/
+   var addEvent = function(obj, type, callback, eventReturn)
+   {
+       if(obj == null || typeof obj === 'undefined')
+           return;
+
+       if(obj.addEventListener)
+           obj.addEventListener(type, callback, eventReturn ? true : false);
+       else if(obj.attachEvent)
+           obj.attachEvent("on" + type, callback);
+       else
+           obj["on" + type] = callback;
+   };
+
+   /**
+    * see http://nimius.net/de/blog/artikel/javascript-debounce-throttle/
+    * debouncing, executes the function if there was no new event in $wait milliseconds
+    * @param func
+    * @param wait
+    * @param scope
+    * @returns {Function}
+    */
+   var debounce = function(func, wait, scope) {
+       var timeout;
+       return function() {
+           var context = scope || this, args = arguments;
+           var later = function() {
+               timeout = null;
+               func.apply(context, args);
+           };
+           clearTimeout(timeout);
+           timeout = setTimeout(later, wait);
+       };
+   };
+
+   var hasClass = function(ele, className) {
+       return (' ' + ele.className + ' ').indexOf(' ' + className + ' ') !== -1;
+   };
+
+   var watch = function(evt)
+   {
+       /*
+        Older browser versions may return evt.srcElement
+        Newer browser versions should return evt.currentTarget
+        */
+       // var dimensions = {
+       //     height: (evt.srcElement || evt.currentTarget).innerHeight,
+       //     width: (evt.srcElement || evt.currentTarget).innerWidth
+       // };
+
+       var aFocuhilaImg = document.getElementsByClassName('b-lazy');
+       if (aFocuhilaImg.length > 0) {
+           for(var i = 0; i < aFocuhilaImg.length; i++) {
+               var parent = aFocuhilaImg[i].parentNode;
+               /**
+                * Add height from parent .focuhila element
+                */
+               if (hasClass(parent, 'focuhila')) {
+                   if (hive_cfg_typoscript_sStage == "prototype" || hive_cfg_typoscript_sStage == "development") {
+                       console.info("Parent height: " + parent.clientHeight);
+                   }
+                   aFocuhilaImg[i].style.height = parent.clientHeight + "px";
+               }
+           }
+       }
+
+
+   };
+
+   var hive_thm_blazy_addons__interval = setInterval(function () {
+       if (typeof hive_cfg_typoscript__windowLoad == 'undefined') {
+       } else {
+           clearInterval(hive_thm_blazy_addons__interval);
+           if (hive_cfg_typoscript_sStage == "prototype" || hive_cfg_typoscript_sStage == "development") {
+               console.info('blazy addons initialize');
+           }
+
+           /**
+            * Set height of images on resize and orientation change
+            */
+           addEvent(window, 'resize', debounce(watch,1000), true);
+           addEvent(window, 'orientationchange', debounce(watch,1000), true);
+
+       }
+   }, 250);
