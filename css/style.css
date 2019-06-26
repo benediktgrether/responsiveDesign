@@ -2,7 +2,21 @@
     font-family: "LINTSEC";
     src: url("../sf-alien-encounters.regular.ttf");
 }
-@import url(http://allfont.de/allfont.css?fonts=franklin-gothic-heavy);
+
+@font-face {
+    font-family: 'Beyon';
+    src: url('../font/Marske.ttf');
+}
+@font-face {
+    font-family: 'franklin';
+    src: url('../font/franklin-gothic-heavy.ttf');
+}
+@font-face {
+    font-family: 'franklin-light';
+    src: url('../font/Franklin-Gothic-Light-SSi-Light.ttf');
+}
+
+/* @import url(http://allfont.de/allfont.css?fonts=franklin-gothic-heavy); */
 html,body{margin: 0;padding: 0;max-width: 100%;background-color: black}
 h2,h3,h4,h5,h6,p{font-family: 'Poppins', sans-serif;}
 h2{color: white;text-transform: uppercase;font-size: 4rem;position: relative;margin-bottom: 20px}
@@ -16,11 +30,428 @@ p{color: white;font-size: 1.2rem}
 .btn-middle{text-align: center;padding: 0 !important}
 /*h1{font-family: LINTSEC, sf-alien-encounters;text-align: center;text-transform: uppercase; letter-spacing: 5px; position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;color: white;font-size: 5rem}*/
 
+/* Ersetzen*/
+
+
+
+.btn--primary {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 8px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 100% auto;
+    border: none;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    /* box-shadow: 0 0 20px #eee; */
+    /* border-radius: 10px; */
+   }
+
+.btn-radius{
+    width: 250px;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+
+.btn-glow{
+    background-image: linear-gradient(to right, #8105d2, #023394);
+}
+
+.font-align{
+    /* display: block; */
+    text-align: center;
+}
+
+/* Glitch */
+.glitch {
+    color: white;
+    /* font-size: 150px; */
+    text-transform: upercase;
+    position: relative;
+    /* display: inline-block; */
+  }
+  .glitch::before,
+  .glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: black; */
+  }
+  .glitch::before {
+    left: 2px;
+    text-shadow: -2px 0 #49FC00;
+    clip: rect(24px, 550px, 90px, 0);
+    animation: glitch-anim-2 3s infinite linear alternate-reverse;
+  }
+  .glitch::after {
+    left: -2px;
+    text-shadow: -2px 0 #b300fc;
+    clip: rect(85px, 550px, 140px, 0);
+    animation: glitch-anim 2.5s infinite linear alternate-reverse;
+  }
+  @-webkit-keyframes glitch-anim {
+    0% {
+      clip: rect(40px, 9999px, 126px, 0);
+    }
+    4.166666666666666% {
+      clip: rect(80px, 9999px, 144px, 0);
+    }
+    8.333333333333332% {
+      clip: rect(127px, 9999px, 25px, 0);
+    }
+    12.5% {
+      clip: rect(73px, 9999px, 132px, 0);
+    }
+    16.666666666666664% {
+      clip: rect(36px, 9999px, 14px, 0);
+    }
+    20.833333333333336% {
+      clip: rect(150px, 9999px, 54px, 0);
+    }
+    25% {
+      clip: rect(142px, 9999px, 100px, 0);
+    }
+    29.166666666666668% {
+      clip: rect(13px, 9999px, 59px, 0);
+    }
+    33.33333333333333% {
+      clip: rect(101px, 9999px, 64px, 0);
+    }
+    37.5% {
+      clip: rect(2px, 9999px, 142px, 0);
+    }
+    41.66666666666667% {
+      clip: rect(52px, 9999px, 19px, 0);
+    }
+    45.83333333333333% {
+      clip: rect(143px, 9999px, 80px, 0);
+    }
+    50% {
+      clip: rect(58px, 9999px, 99px, 0);
+    }
+    54.166666666666664% {
+      clip: rect(22px, 9999px, 86px, 0);
+    }
+    58.333333333333336% {
+      clip: rect(150px, 9999px, 80px, 0);
+    }
+    62.5% {
+      clip: rect(56px, 9999px, 49px, 0);
+    }
+    66.66666666666666% {
+      clip: rect(97px, 9999px, 55px, 0);
+    }
+    70.83333333333334% {
+      clip: rect(104px, 9999px, 46px, 0);
+    }
+    75% {
+      clip: rect(81px, 9999px, 145px, 0);
+    }
+    79.16666666666666% {
+      clip: rect(61px, 9999px, 55px, 0);
+    }
+    83.33333333333334% {
+      clip: rect(55px, 9999px, 138px, 0);
+    }
+    87.5% {
+      clip: rect(98px, 9999px, 16px, 0);
+    }
+    91.66666666666666% {
+      clip: rect(4px, 9999px, 61px, 0);
+    }
+    95.83333333333334% {
+      clip: rect(20px, 9999px, 25px, 0);
+    }
+    100% {
+      clip: rect(141px, 9999px, 120px, 0);
+    }
+  }
+  @keyframes glitch-anim {
+    0% {
+      clip: rect(40px, 9999px, 126px, 0);
+    }
+    4.166666666666666% {
+      clip: rect(80px, 9999px, 144px, 0);
+    }
+    8.333333333333332% {
+      clip: rect(127px, 9999px, 25px, 0);
+    }
+    12.5% {
+      clip: rect(73px, 9999px, 132px, 0);
+    }
+    16.666666666666664% {
+      clip: rect(36px, 9999px, 14px, 0);
+    }
+    20.833333333333336% {
+      clip: rect(150px, 9999px, 54px, 0);
+    }
+    25% {
+      clip: rect(142px, 9999px, 100px, 0);
+    }
+    29.166666666666668% {
+      clip: rect(13px, 9999px, 59px, 0);
+    }
+    33.33333333333333% {
+      clip: rect(101px, 9999px, 64px, 0);
+    }
+    37.5% {
+      clip: rect(2px, 9999px, 142px, 0);
+    }
+    41.66666666666667% {
+      clip: rect(52px, 9999px, 19px, 0);
+    }
+    45.83333333333333% {
+      clip: rect(143px, 9999px, 80px, 0);
+    }
+    50% {
+      clip: rect(58px, 9999px, 99px, 0);
+    }
+    54.166666666666664% {
+      clip: rect(22px, 9999px, 86px, 0);
+    }
+    58.333333333333336% {
+      clip: rect(150px, 9999px, 80px, 0);
+    }
+    62.5% {
+      clip: rect(56px, 9999px, 49px, 0);
+    }
+    66.66666666666666% {
+      clip: rect(97px, 9999px, 55px, 0);
+    }
+    70.83333333333334% {
+      clip: rect(104px, 9999px, 46px, 0);
+    }
+    75% {
+      clip: rect(81px, 9999px, 145px, 0);
+    }
+    79.16666666666666% {
+      clip: rect(61px, 9999px, 55px, 0);
+    }
+    83.33333333333334% {
+      clip: rect(55px, 9999px, 138px, 0);
+    }
+    87.5% {
+      clip: rect(98px, 9999px, 16px, 0);
+    }
+    91.66666666666666% {
+      clip: rect(4px, 9999px, 61px, 0);
+    }
+    95.83333333333334% {
+      clip: rect(20px, 9999px, 25px, 0);
+    }
+    100% {
+      clip: rect(141px, 9999px, 120px, 0);
+    }
+  }
+  @-webkit-keyframes glitch-anim-2 {
+    6.666666666666667% {
+      clip: rect(13px, 9999px, 11px, 0);
+    }
+    10% {
+      clip: rect(115px, 9999px, 6px, 0);
+    }
+    13.333333333333334% {
+      clip: rect(20px, 9999px, 130px, 0);
+    }
+    16.666666666666664% {
+      clip: rect(111px, 9999px, 103px, 0);
+    }
+    20% {
+      clip: rect(35px, 9999px, 52px, 0);
+    }
+    23.333333333333332% {
+      clip: rect(5px, 9999px, 100px, 0);
+    }
+    26.666666666666668% {
+      clip: rect(50px, 9999px, 87px, 0);
+    }
+    30% {
+      clip: rect(125px, 9999px, 88px, 0);
+    }
+    33.33333333333333% {
+      clip: rect(38px, 9999px, 52px, 0);
+    }
+    36.666666666666664% {
+      clip: rect(136px, 9999px, 92px, 0);
+    }
+    40% {
+      clip: rect(39px, 9999px, 79px, 0);
+    }
+    43.333333333333336% {
+      clip: rect(79px, 9999px, 119px, 0);
+    }
+    46.666666666666664% {
+      clip: rect(13px, 9999px, 138px, 0);
+    }
+    50% {
+      clip: rect(93px, 9999px, 31px, 0);
+    }
+    53.333333333333336% {
+      clip: rect(64px, 9999px, 4px, 0);
+    }
+    56.666666666666664% {
+      clip: rect(92px, 9999px, 100px, 0);
+    }
+    60% {
+      clip: rect(132px, 9999px, 66px, 0);
+    }
+    63.33333333333333% {
+      clip: rect(8px, 9999px, 138px, 0);
+    }
+    66.66666666666666% {
+      clip: rect(54px, 9999px, 96px, 0);
+    }
+    70% {
+      clip: rect(129px, 9999px, 119px, 0);
+    }
+    73.33333333333333% {
+      clip: rect(24px, 9999px, 63px, 0);
+    }
+    76.66666666666667% {
+      clip: rect(139px, 9999px, 62px, 0);
+    }
+    80% {
+      clip: rect(42px, 9999px, 52px, 0);
+    }
+    83.33333333333334% {
+      clip: rect(41px, 9999px, 106px, 0);
+    }
+    86.66666666666667% {
+      clip: rect(11px, 9999px, 73px, 0);
+    }
+    90% {
+      clip: rect(101px, 9999px, 29px, 0);
+    }
+    93.33333333333333% {
+      clip: rect(55px, 9999px, 108px, 0);
+    }
+    96.66666666666667% {
+      clip: rect(44px, 9999px, 11px, 0);
+    }
+    100% {
+      clip: rect(144px, 9999px, 43px, 0);
+    }
+  }
+  @keyframes glitch-anim-2 {
+    6.666666666666667% {
+      clip: rect(13px, 9999px, 11px, 0);
+    }
+    10% {
+      clip: rect(115px, 9999px, 6px, 0);
+    }
+    13.333333333333334% {
+      clip: rect(20px, 9999px, 130px, 0);
+    }
+    16.666666666666664% {
+      clip: rect(111px, 9999px, 103px, 0);
+    }
+    20% {
+      clip: rect(35px, 9999px, 52px, 0);
+    }
+    23.333333333333332% {
+      clip: rect(5px, 9999px, 100px, 0);
+    }
+    26.666666666666668% {
+      clip: rect(50px, 9999px, 87px, 0);
+    }
+    30% {
+      clip: rect(125px, 9999px, 88px, 0);
+    }
+    33.33333333333333% {
+      clip: rect(38px, 9999px, 52px, 0);
+    }
+    36.666666666666664% {
+      clip: rect(136px, 9999px, 92px, 0);
+    }
+    40% {
+      clip: rect(39px, 9999px, 79px, 0);
+    }
+    43.333333333333336% {
+      clip: rect(79px, 9999px, 119px, 0);
+    }
+    46.666666666666664% {
+      clip: rect(13px, 9999px, 138px, 0);
+    }
+    50% {
+      clip: rect(93px, 9999px, 31px, 0);
+    }
+    53.333333333333336% {
+      clip: rect(64px, 9999px, 4px, 0);
+    }
+    56.666666666666664% {
+      clip: rect(92px, 9999px, 100px, 0);
+    }
+    60% {
+      clip: rect(132px, 9999px, 66px, 0);
+    }
+    63.33333333333333% {
+      clip: rect(8px, 9999px, 138px, 0);
+    }
+    66.66666666666666% {
+      clip: rect(54px, 9999px, 96px, 0);
+    }
+    70% {
+      clip: rect(129px, 9999px, 119px, 0);
+    }
+    73.33333333333333% {
+      clip: rect(24px, 9999px, 63px, 0);
+    }
+    76.66666666666667% {
+      clip: rect(139px, 9999px, 62px, 0);
+    }
+    80% {
+      clip: rect(42px, 9999px, 52px, 0);
+    }
+    83.33333333333334% {
+      clip: rect(41px, 9999px, 106px, 0);
+    }
+    86.66666666666667% {
+      clip: rect(11px, 9999px, 73px, 0);
+    }
+    90% {
+      clip: rect(101px, 9999px, 29px, 0);
+    }
+    93.33333333333333% {
+      clip: rect(55px, 9999px, 108px, 0);
+    }
+    96.66666666666667% {
+      clip: rect(44px, 9999px, 11px, 0);
+    }
+    100% {
+      clip: rect(144px, 9999px, 43px, 0);
+    }
+  }
+
+
+/* End Glitch */
+
+
 /* ------------------------------------------------------------------------------section1 ------------------------------------------------------------------------------*/
 
-h1{ text-shadow: 2px 5px 10px black;
-    font-family: 'Franklin Gothic Heavy', arial;text-align: center;text-transform: uppercase; letter-spacing: 5px; position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;color: white;font-size: 5rem}
-h1 span{text-transform: none; letter-spacing: 3px; font-size: 2.5rem;line-height: .8 !important}
+h1{ 
+    /* text-shadow: 2px 5px 10px black; */
+    font-family: franklin;
+    /* font-family: Beyon; */
+    text-align: center;
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    position: absolute;
+    transform: translate(-50%,-50%);top: 50%;left: 50%;color: white;
+    font-size: 10rem
+}
+h1 span{
+    font-family: franklin-light;
+    text-transform: none; 
+    letter-spacing: 3px; 
+    font-size: 2.5rem;
+    line-height: .8 !important;
+}
 
 .scrolldown{z-index: 2;position: absolute;bottom: 2%;width: 100%;max-width: 100% !important}
 .scrolldown .col-md-12{text-align: center;height: auto}
@@ -39,6 +470,11 @@ h1 span{text-transform: none; letter-spacing: 3px; font-size: 2.5rem;line-height
 }
 #heart,#heart2{display: none}
 
+#heart{
+    position: relative;
+    top: -50%;
+    /* transform: translateX(-50%); */
+}
 
 .section1 .container-fluid,.section1 .container-fluid .row{height: 100%}
 .section1 .col-xl-6 #hori{
@@ -71,7 +507,7 @@ video{width: 100%;min-height: 100%}
 
 
 @media (max-width: 1024px) {
-    .section1 .col-xl-6 #hori {
+   /* .section1 .col-xl-6 #hori {
         left: 0;
         top: 0;
         height: 100%;
@@ -97,14 +533,20 @@ video{width: 100%;min-height: 100%}
 
 
     }
-    #heart{display: block ;}
+    #heart{display: block ;}*/
+    .section1 .col-xl-6 #hori {
+        top: 50%;
+
+
+    }
     .section4 .col-md-6 div{padding: 20px}
 
 }
-@media (max-width: 768px) {
+
+@media (max-width: 991px) {
     .section1 .col-xl-6 #hori {
-        left: 0;
-        top: 0;
+        left: 50px;
+        top: -200px;
         height: 100%;
         position: relative;
 
@@ -113,7 +555,7 @@ video{width: 100%;min-height: 100%}
     .section1 .col-xl-6 #hori2{
         position: relative;
         right: 0;
-        top: 0;
+        top: 200px;
         height: 100%;
         transform: translateY(0);
 
@@ -128,10 +570,76 @@ video{width: 100%;min-height: 100%}
 
 
     }
-    #heart{display: block ;font-size: 3rem !important}
+    #heart{
+        display: block;
+        /* font-size: 3rem !important; */
+        position: relative;
+        top: -50%;
+        transform: translateX(-50%);
+    }
     h2{font-size: 3rem}
     .section5 .col-sm-12{margin-bottom: 15px}
     .margin-row{margin-bottom: 0}
     .section4 .col-md-6 div{padding: 10px}
 
+}
+@media (max-width: 768px) {
+    .section1 .col-xl-6 #hori {
+        left: 50px;
+        top: -120px;
+        height: 100%;
+        position: relative;
+
+        transform: translateY(0);
+    }
+    .section1 .col-xl-6 #hori2{
+        position: relative;
+        right: 0;
+        top: 120px;
+        height: 100%;
+        transform: translateY(0);
+
+    }
+    .section1 .col-xl-6 #hori svg{
+        transform: rotate(90deg) ;
+        height: 100%;
+    }
+    .section1 .col-xl-6 #hori2 svg{
+        transform: rotate(90deg) ;
+        height: 100%;
+
+
+    }
+    #heart{
+        display: block ;
+        /* font-size: 3rem !important; */
+    }
+    h2{font-size: 3rem}
+    .section5 .col-sm-12{margin-bottom: 15px}
+    .margin-row{margin-bottom: 0}
+    .section4 .col-md-6 div{padding: 10px}
+
+}
+
+
+@media (max-width: 576px) {
+    .section1 .col-xl-6 #hori {
+        left: 50px;
+        top: -30px;
+        height: 100%;
+        position: relative;
+
+        transform: translateY(0);
+    }
+    .section1 .col-xl-6 #hori2{
+        position: relative;
+
+        top: 30px;
+        height: 100%;
+        transform: translateY(0);
+
+    }
+    h1{
+        font-size: 8rem;
+    }
 }

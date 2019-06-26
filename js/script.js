@@ -37,13 +37,13 @@
         if (position3<=0){*/
 
                setTimeout( function() { $('#hori svg path').each(function (i, value) {
-                   $(this).attr('class', 'cls-' + i)
+                   $(this).attr('class')
                });
                    },500);
 
 
                setTimeout( function() { $('#hori2 svg path').each(function (i, value) {
-                   $(this).attr('class', 'cls-' + i)
+                   $(this).attr('class')
                });
                },500);
                $('#heart').fadeIn(1000);
